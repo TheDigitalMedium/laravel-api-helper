@@ -2,11 +2,6 @@
 
 namespace TheDigitalMedium\ApiHelper;
 
-use TheDigitalMedium\ApiHelper\Commands\ApiGenerateCommand;
-use TheDigitalMedium\ApiHelper\Commands\GeneratePermissions;
-use TheDigitalMedium\ApiHelper\Commands\MakeActionCommand;
-use TheDigitalMedium\ApiHelper\Commands\MakeEnumCommand;
-use TheDigitalMedium\ApiHelper\Commands\MakeFilterCommand;
 use Illuminate\Support\ServiceProvider;
 
 class ApiHelperServiceProvider extends ServiceProvider
