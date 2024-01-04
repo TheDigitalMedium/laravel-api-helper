@@ -3,9 +3,18 @@
     <a rel="dofollow" href="https://thedigitalmedium.com">The Digital Medium</a>
 </p>
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/thedigitalmedium/laravel-api-helper.svg?style=flat-square)](https://packagist.org/packages/thedigitalmedium/laravel-api-helper)
+![Test Status](https://img.shields.io/github/actions/workflow/status/ahmedesa/laravel-api-tool-kit/test.yml?label=tests&branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/thedigitalmedium/laravel-api-helper.svg?style=flat-square)](https://packagist.org/packages/thedigitalmedium/laravel-api-helper)
 
-## Elevate Your Laravel API Development with the API Helper: Build High-Performance APIs with Ease
+## Installation
+to install the package using composer:
+```
+composer require thedigitalmedium/laravel-api-helper
+```
 
+## Introduction
+Elevate Your Laravel API Development with the API Helper: Build High-Performance APIs with Ease
 Crafting robust and high-performing Laravel APIs can be a demanding task. Standardizing responses, implementing dynamic pagination, and enabling advanced filtering all require meticulous attention to detail and thoughtful code. But what if there was a way to streamline this process and take your API development to the next level?
 
 Enter the **API Helper**, a powerful Laravel package designed to **supercharge your API development journey**. With its comprehensive set of features, the API Helper empowers you to:
