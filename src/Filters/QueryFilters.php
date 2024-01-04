@@ -142,7 +142,7 @@ class QueryFilters
 
         return $this->pipeline
             ->send($options)
-            ->through(config('api-tool-kit-internal.filters.handlers'))
+            ->through(config('api-helper-config.filters.handlers'))
             ->thenReturn()
             ->getBuilder();
     }

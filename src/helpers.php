@@ -13,7 +13,7 @@ if ( ! function_exists('dateTimeFormat')) {
      */
     function dateTimeFormat(?string $value, ?string $format = null): ?string
     {
-        $format ??= config('api-tool-kit.datetime_format');
+        $format ??= config('api-helper-config.datetime_format');
 
         return $value ? Carbon::parse($value)->format($format) : null;
     }

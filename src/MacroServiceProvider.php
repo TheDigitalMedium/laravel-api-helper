@@ -23,7 +23,7 @@ class MacroServiceProvider extends ServiceProvider
 
             $page = Paginator::resolveCurrentPage();
 
-            $perPage = $request->get('per_page', config('api-tool-kit.default_pagination_number'));
+            $perPage = $request->get('per_page', config('api-helper-config.default_pagination_number'));
 
             $results = ($total = $this->toBase()->getCountForPagination())
                 ? $this->forPage($page, $perPage)->get(['*'])

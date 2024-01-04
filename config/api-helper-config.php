@@ -20,4 +20,21 @@ return [
     */
     'datetime_format' => 'Y-m-d H:i:s',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Filters
+    |--------------------------------------------------------------------------
+    |
+    | Specify the list of handler classes for processing query filters.
+    | These handlers will be applied in the specified order.
+    */
+    'filters' => [
+        'handlers' => [
+            TheDigitalMedium\ApiHelper\Filters\Handlers\FiltersHandler::class,
+            TheDigitalMedium\ApiHelper\Filters\Handlers\SortHandler::class,
+            TheDigitalMedium\ApiHelper\Filters\Handlers\IncludesHandler::class,
+            TheDigitalMedium\ApiHelper\Filters\Handlers\SearchHandler::class,
+        ],
+    ],
+
 ];
