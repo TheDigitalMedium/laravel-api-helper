@@ -4,7 +4,6 @@
 </p>
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thedigitalmedium/laravel-api-helper.svg?style=flat-square)](https://packagist.org/packages/thedigitalmedium/laravel-api-helper)
-![Test Status](https://img.shields.io/github/actions/workflow/status/ahmedesa/laravel-api-tool-kit/test.yml?label=tests&branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/thedigitalmedium/laravel-api-helper.svg?style=flat-square)](https://packagist.org/packages/thedigitalmedium/laravel-api-helper)
 
 ## Installation

@@ -23,33 +23,17 @@ class ApiHelperServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->AddConfigFiles();
-
-        $this->registerCommands();
     }
 
     public function AddConfigFiles(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/api-tool-kit.php', 'api-tool-kit');
-
-        $this->mergeConfigFrom(__DIR__ . '/../config/api-tool-kit-internal.php', 'api-tool-kit-internal');
-
+        $this->mergeConfigFrom(__DIR__ . '/../config/api-helper-config.php', 'api-helper-config');
         if ($this->app->runningInConsole() && function_exists('config_path')) {
             $this->publishes([
-                __DIR__ . '/../config/api-tool-kit.php' => config_path('api-tool-kit.php'),
+                __DIR__ . '/../config/api-helper-config.php' => config_path('api-helper-config.php'),
             ], 'config');
         }
     }
 
-    public function registerCommands(): void
-    {
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                ApiGenerateCommand::class,
-                MakeActionCommand::class,
-                MakeEnumCommand::class,
-                GeneratePermissions::class,
-                MakeFilterCommand::class,
-            ]);
-        }
-    }
+
 }
