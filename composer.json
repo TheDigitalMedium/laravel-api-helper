@@ -1,7 +1,6 @@
 {
     "name": "thedigitalmedium/laravel-api-helper",
-    "description": "set of helpful tools to build an api with laravel",
-    "version": "1.0.1",
+    "description": "Elevate Your Laravel API Development with the API Helper: Build High-Performance APIs with Ease (https://thedigitalmedium.com)",
     "keywords": [
         "laravel",
         "api",
