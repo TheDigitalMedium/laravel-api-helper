@@ -51,7 +51,6 @@
     },
     "scripts": {
         "fix-style": "./vendor/bin/duster fix",
-        "check-code": "./vendor/bin/duster lint",
-        "test": "./vendor/bin/phpunit"
+        "check-code": "./vendor/bin/duster lint"
     }
 }
